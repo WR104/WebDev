@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    text-decoration: line-through;
+
+}
+h2 {
+    color: indigo;
+    background-color: palevioletred;
+}
+
+button {
+    color: magenta;
+    background-color: cyan;
+}
