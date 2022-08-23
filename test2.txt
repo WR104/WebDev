@@ -1,2 +1,0 @@
-Another file to test the connection between git
-Mac test
