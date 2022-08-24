@@ -7,7 +7,7 @@
     <title>Bootstrap Basics</title>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link ref="stylesheet" href="app.css">
+<link ref="stylesheet" href="app.css">
 
 </head>
 <body>
@@ -39,6 +39,26 @@
             <div class="col-6">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam sunt consequuntur inventore, molestiae aliquam cumque velit quisquam reprehenderit aut assumenda, quos eveniet? Libero eos sequi accusamus iure, nostrum natus fuga.</p>
             </div>
+        </div>
+        <div class="container">
+            <h1 class="display-2">Forms</h1>
+            <form action="#nowhere">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="password">
+                </div>
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <select class="form-control" name="state" id="state">
+                        <option value="AL">Alabama</option>
+                        <option value="CA">Califorina</option>
+                    </select>
+                </div>
+            </form>
         </div>
     </div>
 
