@@ -1,4 +1,4 @@
-SSH key
+gitSSH key
 
 1.global --config user.name "username"
 2.global --config user.email "..."
