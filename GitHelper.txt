@@ -27,3 +27,8 @@ gitSSH key
 5.git add
 6.git commit -m "message"
 7.git push origin main
+
+.gitignore
+    node_modules/       
+    package-lock.json
+    .idea
